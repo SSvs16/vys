@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+td,
+body {
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.header-p {
+    color: rgb(247, 169, 247);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.table-header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.table-menu-eleccionado {
+    color: plum;
+    padding-right: 14px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.table-menu {
+    color: pink;
+    padding-right: 14px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    /* Para que el contenedor ocupe toda la altura de la pantalla */
+}
+
+.cuadrado {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.cuadrado-p {
+    background-color: #ffffff;
+    color: pink;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    /* Para que el contenedor ocupe toda la altura de la pantalla */
+}
+
+.cuadrado2 {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.cuadrado-p2 {
+    background-color: #ffffff;
+    color: pink;
+}
+
+.pronto {
+    text-align: center;
+    color: plum;
+}
