@@ -1,0 +1,40 @@
+.fotos-fotos {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.momento-1 {
+    padding-bottom: 30px;
+    background-color: white;
+    background-color: rgb(255, 255, 255);
+    border: 1% solid #ffffff;
+    text-align: center;
+    margin-top: -10%;
+    margin-top: -3%;
+    border-radius: 14px;
+}
+
+.momento-1-titulo {
+    color: purple;
+    text-align: center;
+    margin-bottom: -2%;
+}
+
+.momento-1-subtitulo {
+    text-align: center;
+    color: rgb(231, 136, 231);
+    padding: 0%;
+}
+
+.momento-1-footer {
+    color: pink;
+    background-color: #fff;
+}
+
+.momento-1-footer-2 {
+    color: plum;
+    background-color: white;
+    margin-top: -4%;
+}

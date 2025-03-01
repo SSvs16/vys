@@ -10,6 +10,16 @@ body {
     background-color: pink;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    display: flex;
+}
+
+
 header {
     padding: 10px;
     background-color: rgb(255, 255, 255);
@@ -49,20 +59,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 40vh;
     /* Para que el contenedor ocupe toda la altura de la pantalla */
 }
 
 .cuadrado {
-    width: 600px;
-    height: 200px;
+    width: 80%;
+    height: 50%;
     display: flex;
     justify-content: center;
+    flex: auto;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    border: 2px solid #ffffff;
+    border: 1% solid #ffffff;
     text-align: center;
-    border-radius: 14px;
+    border-radius: 1vh;
 }
 
 .cuadrado-p {
@@ -79,15 +90,15 @@ header {
 }
 
 .cuadrado2 {
-    width: 600px;
-    height: 100px;
+    width: 80%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    border: 2px solid #ffffff;
+    border: 1% solid #ffffff;
     text-align: center;
-    border-radius: 14px;
+    border-radius: 1vh;
 }
 
 .cuadrado-p2 {
@@ -97,5 +108,10 @@ header {
 
 .pronto {
     text-align: center;
+    color: plum;
+}
+
+.link-spotify {
+    text-decoration: none;
     color: plum;
 }
